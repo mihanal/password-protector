@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="318.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.attune.controller.EntryPageController">
+   <children>
+      <Label layoutX="137.0" layoutY="88.0" text="SYSTEM" AnchorPane.bottomAnchor="349.0" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="50.0" />
+      <Label layoutX="137.0" layoutY="142.0" text="USER NAME" AnchorPane.bottomAnchor="295.0" AnchorPane.leftAnchor="75.0" />
+      <Label layoutX="137.0" layoutY="257.0" text="URL" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="75.0" />
+      <Label layoutX="137.0" layoutY="197.0" text="PASSWORD" AnchorPane.bottomAnchor="240.0" AnchorPane.leftAnchor="75.0" />
+      <PasswordField fx:id="password" layoutX="207.0" layoutY="163.0" prefHeight="39.0" prefWidth="379.0" />
+      <TextField fx:id="system" layoutX="207.0" layoutY="54.0" prefHeight="39.0" prefWidth="379.0" />
+      <TextField fx:id="userName" layoutX="207.0" layoutY="108.0" prefHeight="39.0" prefWidth="379.0" />
+      <TextField fx:id="systemUrl" layoutX="207.0" layoutY="223.0" prefHeight="39.0" prefWidth="379.0" />
+      <Button layoutX="435.0" layoutY="315.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="154.0" text="CANCEL" />
+      <Button layoutX="207.0" layoutY="315.0" mnemonicParsing="false" onAction="#handlePostEntryAction" prefHeight="39.0" prefWidth="154.0" text="ADD" />
+   </children>
+</AnchorPane>
