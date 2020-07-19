@@ -6,11 +6,13 @@
 	<artifactId>password-protector</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>password-protector</name>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.release>11</maven.compiler.release>
 		<javafx.version>13</javafx.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.openjfx</groupId>
@@ -39,6 +41,7 @@
 			<version>5.4.17.Final</version>
 		</dependency>
 	</dependencies>
+
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
@@ -89,4 +92,5 @@
 			</plugin>
 		</plugins>
 	</build>
+	
 </project>
