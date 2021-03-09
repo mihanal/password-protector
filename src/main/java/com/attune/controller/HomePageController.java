@@ -38,7 +38,6 @@ public class HomePageController implements Initializable{
 	 * @param resources
 	 */
 	public void initialize(URL location, ResourceBundle resources) {
-		System.out.println("&&&&&&&&&");
 		EntryService service = new EntryService();
 		List<Entry> entries = service.getEntries();
 		
