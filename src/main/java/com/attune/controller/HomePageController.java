@@ -32,8 +32,13 @@ public class HomePageController implements Initializable{
     @FXML public  TableColumn<Entry, String> tablePassword;
     @FXML public  TableColumn<Entry, String> tableUrl;
 
+	/**
+	 *
+	 * @param location
+	 * @param resources
+	 */
 	public void initialize(URL location, ResourceBundle resources) {
-		System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+		System.out.println("&&&&&&&&&");
 		EntryService service = new EntryService();
 		List<Entry> entries = service.getEntries();
 		
