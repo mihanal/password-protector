@@ -22,9 +22,14 @@ public class LoginPageController implements Initializable{
 	@FXML private TextField 	userName;
 	@FXML private PasswordField password;
 
+	/**
+	 * Initialize
+	 *
+	 * @param location
+	 * @param resources
+	 */
 	public void initialize(URL location, ResourceBundle resources) {
-		// TODO Auto-generated method stub
-		
+		// Need fix this
 	}
 
 	@FXML
