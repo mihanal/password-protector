@@ -23,11 +23,7 @@ public class LoginPageController implements Initializable{
 	@FXML private PasswordField password;
 
 	/**
-	 *
-	 *
-	 *
-	 *
-	 *
+	 * Initialize
 	 *
 	 * @param location
 	 * @param resources
